@@ -202,7 +202,6 @@
     "center": [5.019390745572139, 50.485203800215345],
     "zoom": 7.139345725797171,
     "bearing": 0,
-    "pitch": 0,
     "fog": {
         "range": [-1, 10],
         "color": "hsl(0, 0%, 100%)",
@@ -290,7 +289,6 @@
                         "grass",
                         "scrub",
                         "glacier",
-                        "pitch",
                         "sand"
                     ],
                     ["step", ["zoom"], false, 11, true],
@@ -1293,7 +1291,6 @@
                 ],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 1],
@@ -1361,7 +1358,6 @@
                 ["<=", ["get", "filterrank"], 1],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 1],
@@ -1426,7 +1422,6 @@
                 ["<=", ["get", "filterrank"], 1],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 1],
@@ -1496,7 +1491,6 @@
                 ],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 1],
@@ -1569,7 +1563,6 @@
                 ],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 1],
@@ -1638,7 +1631,6 @@
                 ],
                 [
                     "step",
-                    ["pitch"],
                     true,
                     50,
                     ["<", ["distance-from-center"], 2],

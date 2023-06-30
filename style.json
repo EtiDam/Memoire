@@ -1580,7 +1580,7 @@
                     "<=",
                     ["get", "filterrank"],
                     ["+", ["step", ["zoom"], 0, 16, 1, 17, 2], 1]
-                ],
+                ]
             ],
             "layout": {
                 "text-size": [

@@ -1291,17 +1291,6 @@
                     ["match", ["get", "worldview"], ["all", "US"], true, false],
                     false
                 ],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 1],
-                    60,
-                    ["<", ["distance-from-center"], 1.5],
-                    70,
-                    ["<", ["distance-from-center"], 2]
-                ],
                 ["==", ["geometry-type"], "LineString"]
             ],
             "layout": {
@@ -1359,17 +1348,6 @@
                     false
                 ],
                 ["<=", ["get", "filterrank"], 1],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 1],
-                    60,
-                    ["<", ["distance-from-center"], 1.5],
-                    70,
-                    ["<", ["distance-from-center"], 2]
-                ],
                 ["==", ["geometry-type"], "LineString"]
             ],
             "layout": {
@@ -1424,17 +1402,6 @@
                     false
                 ],
                 ["<=", ["get", "filterrank"], 1],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 1],
-                    60,
-                    ["<", ["distance-from-center"], 1.5],
-                    70,
-                    ["<", ["distance-from-center"], 2]
-                ],
                 ["==", ["geometry-type"], "Point"]
             ],
             "layout": {
@@ -1493,17 +1460,6 @@
                     ],
                     ["match", ["get", "worldview"], ["all", "US"], true, false],
                     false
-                ],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 1],
-                    60,
-                    ["<", ["distance-from-center"], 1.5],
-                    70,
-                    ["<", ["distance-from-center"], 2]
                 ],
                 ["==", ["geometry-type"], "LineString"]
             ],
@@ -1567,17 +1523,6 @@
                     ["match", ["get", "worldview"], ["all", "US"], true, false],
                     false
                 ],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 1],
-                    60,
-                    ["<", ["distance-from-center"], 1.5],
-                    70,
-                    ["<", ["distance-from-center"], 2]
-                ],
                 ["==", ["geometry-type"], "Point"]
             ],
             "layout": {
@@ -1636,17 +1581,6 @@
                     ["get", "filterrank"],
                     ["+", ["step", ["zoom"], 0, 16, 1, 17, 2], 1]
                 ],
-                [
-                    "step",
-                    ["pitch"],
-                    true,
-                    50,
-                    ["<", ["distance-from-center"], 2],
-                    60,
-                    ["<", ["distance-from-center"], 2.5],
-                    70,
-                    ["<", ["distance-from-center"], 3]
-                ]
             ],
             "layout": {
                 "text-size": [
